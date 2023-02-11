@@ -1,5 +1,6 @@
 import AppFilter from '../app-filter/app-filter';
 import AppInfo from '../app-info/app-info';
+import EmployeesList from '../employees-list/employees-list';
 import SearchPanel from '../search-panel/search-panel';
 
 import './app.css';
@@ -13,6 +14,8 @@ function App() {
                 <SearchPanel/>
                 <AppFilter/>
             </div>
+
+            <EmployeesList/>
         </div>
     );
 }
